@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap%27');
+/*  */
+/*  */
+/*  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+body{
+    background: white;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: inherit;
+}
+.Navbar{
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15) ;
+}
+/* .alice-carousel__dots{
+    border: 1.5px solid black;
+    border-radius: 15px;
+    /* width: 200px; 
+    align-self: center;
+} */
+.alice-carousel__dots-item{
+    background: gray !important;
+    width: 100px !important;
+    height: 3px !important;
+    border-radius: 0  !important;
+}
+.alice-carousel__dots-item.__active{
+    background: black !important;
+}
+.one{
+    width: 100%;
+    /* height: 100vh; */
+    /* height: 550px; */
+    background: url(../image/destop2.webp);
+    background-position: top 25% right 0;
+    background-size: cover;
+    flex-direction: row;
+    /* background: url(' https://images.samsung.com/is/image/samsung/assets/us/smartphones/04052023/SDSAC-5716-A54-HP-Hero-Carousel-DT-1440x640.jpg?imwidth=1536'); */
+}
+.two{
+    width: 100%;
+ 
+    background: url(../image/desktop1.webp);
+    background-position: top 25% right 0;
+    background-size: cover;
+    flex-direction: row;
+
+}
+.ban{
+    width: 100%;
+ 
+    background: url('https://images.samsung.com/is/image/samsung/assets/africa_en/2302/pcd/smartphones/PCD_Ecosystem_KV_Curation-KV_1440x640_pc.jpg?$1440_640_JPG$');
+    /* background-position: top 25% right 0; */
+    background-position: center;
+    background-size: cover;
+    flex-direction: row;
+}
+.ban2{
+    width: 100%;
+ 
+    background: url('https://images.samsung.com/is/image/samsung/assets/africa_en/2203/pcd/PCD_KV_optC_PC_1440X640.jpg?$1440_640_JPG$');
+    /* background-position: top 25% right 0; */
+    background-position: center;
+    background-size: cover;
+    flex-direction: row;
+}
+.ban3{
+    width: 100%;
+ 
+    background: url('https://images.samsung.com/is/image/samsung/assets/africa_en/2302/pcd/smartphones/PCD_Galaxy-S_Curation-KV_1440x640_pc.jpg?$1440_640_JPG$');
+    /* background-position: top 25% right 0; */
+    background-position: center;
+    background-size: cover;
+    flex-direction: row;
+}
+.head2{
+    margin-bottom: 20px;
+}
+/* .swiper .swiper-pagination{
+    /* border: 2px solid black; */
+    /* border-radius: 15px; */
+    /* padding: 10px; */
+    /* align-self: center; */
+    /* width: 10%; 
+} */
+.swiper .swiper-pagination-bullet{
+    background: rgb(54, 54, 54);
+    width: 100px;
+    height: 2.5px;
+    border-radius: 0;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: black;
+}
+.features{
+   color:'black';
+   /* background: ; */
+
+}
+.features .writeup{
+    display: none;
+}
+.features.active{
+    border-top: 2px solid black;
+    padding: 20px 0;
+    background: #f6f2ef;
+    border-bottom: 1px solid gray;
+}
+.features.active .writeup{
+    display: block;
+}
+.middle{
+    background:  url(../image/middle.webp);
+    background-position: center;
+    background-size: cover;
+}
+.subdiv{
+    background: url('https://images.samsung.com/is/image/samsung/assets/us/2302/pcd/smartphones/01242023/Smartphones-PCD-FT03-B2B-D.jpg?$FB_TYPE_A_JPG$');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+    .error{
+      margin-bottom: 5px;
+      color: red;
+      background-color: #f6f2ef ;
+      padding: 7px;
+      width: 100%;
+      font-size: 18px;
+      text-align: left;
+    }
+    .form {
+      padding: 20px;
+      border-radius: 10px;
+      background: whitesmoke;
+      box-shadow: 0px 6px 15px rgba(119, 118, 118, 0.15);
+      text-align: center;
+      width:450px;
+    }
+      .name,
+      .email {
+        width: 100%;
+        margin-bottom: 10px;
+        /* @include flexes(flex, center, flex-start, column); */
+         display: flex;
+        align-items: flex-start;
+        justify-content: center;
+     flex-direction: column;
+      }
+       label{
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 7px;
+        }
+  
+        .input {
+          font-size: 20px;
+          padding: 10px;
+          width: 100%;
+          outline: none;
+          border: none;
+          border-radius: 7px;
+        }
+      
+    
+      .button{
+          padding: 10px 0;
+          width: 100%;
+          margin: 5px 0;
+          text-align: center;
+          font-size: 19px;
+          border-radius: 5px;
+          background:#d6d4d3;
+          border: none;
+        }
+  
+          .button:hover{
+            background: blue;
+            color: whitesmoke;
+            cursor: pointer;
+          }
+      
+      .forgotten{
+        font-size: 17px;
+        font-weight: 500;
+      }
+      .navbutton:hover{
+        background: gray;
+      }
+    
+    
+  
+@media (max-width: 500px){
+    .one{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        /* object-fit: fill; */
+   
+        background-size: cover;
+        background: url(../image/mobile2.webp);
+        background-position: bottom 15% right 50%;
+    }
+    .ban{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        /* object-fit: fill; */
+   
+        background-size: auto;
+        background: url(../image/mobili1.webp);
+        background-position: bottom 45% right 20%;
+    }
+    .ban2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        /* object-fit: fill; */
+   
+        background-size: auto;
+        background: url(../image/mobili2.webp);
+        background-position: center;
+    }
+    .ban3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        /* object-fit: fill; */
+   
+        background-size: auto;
+        background: url(../image/mobili3.webp);
+        background-position: bottom 30% right 50%;
+    }
+    .swiper .swiper-pagination-bullet{
+   
+        width: 30px;
+   
+    }
+    .sub{
+        /* background-size: cover;
+        background: url(../image/mobile2.webp);
+        background-position: bottom 15% right 50%; */
+        width: 100%;
+        padding-bottom: 20px;
+        /* object-fit: fill; */
+        padding-top: 20px;
+        /* border: 2px solid green; */
+        /* height: 100vh; */
+    }
+    .sub2{
+       
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        /* border: 2px solid green; */
+    }
+    .two{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        object-fit: fill;
+        background-size: cover;
+        background: url(../image/mobile1.webp);
+        background-position: bottom 25% right 50%;
+        /* border: 2px solid red; */
+    }
+    .features.active{
+
+        padding: 10px 0;
+     
+    }
+    .alice-carousel__dots-item{
+        background: gray !important;
+        width: 30px !important;
+        border-radius: 0  !important;
+    }
+    .subdiv{
+        background: url('https://images.samsung.com/is/image/samsung/assets/us/2302/pcd/smartphones/01242023/Smartphones-PCD-FT03-B2B-M.jpg?$720_N_JPG$');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+    .down{
+        margin-bottom: 3%;
+    }
+}
